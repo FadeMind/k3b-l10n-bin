@@ -1,19 +1,16 @@
-LOCALE_KF5 = $(DESTDIR)/usr/share/locale
-INSTALL = install -d
-CP = cp -rf
-RM = rm -rf
+#!/usr/bin/make -f
 
-all:
+SOURCEDIR	=	l10n
+PREFIX		= 	/usr
+LOCALEDIR 	= 	$(DESTDIR)/$(PREFIX)/share/locale
+MKD 		= 	install -d
+COPY 		= 	cp -rf
+DEL 		= 	rm -rf
+MOF		=	{k3b,k3bsetup,kio_videodvd,libk3bdevice,libk3b}.mo
 
-install: local
+install:
+	$(MKD) $(LOCALEDIR)
+	$(COPY) $(SOURCEDIR)/* $(LOCALEDIR)
 
-clear:
-	$(RM) $(LOCALE_KF5)/*/LC_MESSAGES/{k3b,k3bsetup,kio_videodvd,libk3bdevice,libk3b}.mo
-
-	
-local:
-	$(INSTALL) $(LOCALE_KF5)
-	
-	$(CP) l10n/* $(LOCALE_KF5)
-
-uninstall: clear
+uninstall:
+	$(DEL) $(LOCALEDIR)/*/LC_MESSAGES/$(MOF)
