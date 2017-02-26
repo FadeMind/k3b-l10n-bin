@@ -5,12 +5,21 @@
 
 # k3b-l10n-bin
 
-Language packs for K3B GIT AUR releases in binary format.
+Language packs for `k3b-git` AUR releases in binary format.
 
-**ARCH LINUX INSTALLATION**
+## ARCH LINUX/MANJARO LINUX INSTALLATION
 
-    yaourt -S k3b-l10n-bin-git
+- Remove legacy k3b version if you have installed:
 
-**LICENSE**
+```
+yaourt -Rnsc k3b 
+```
+- Install k3b-git release snapshot with language packs
+
+```
+yaourt -S --needed --noconfirm {libkcddb,k3b,k3b-l10n-bin}-git
+```
+
+## LICENSE
 
 See `COPYING.GPL2` file for details.

@@ -1,419 +1,419 @@
 .
-├── COPYING.GPL2
-├── l10n
-│   ├── ast
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── be
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── bg
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── bs
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ca
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ca@valencia
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── cs
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── csb
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       └── k3bsetup.mo
-│   ├── da
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── de
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── el
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── en_GB
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── eo
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── es
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── et
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── eu
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── fi
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── fr
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ga
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── gl
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── he
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── hi
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── hne
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── hr
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── hu
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── is
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── it
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ja
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── kk
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── km
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ko
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ku
-│   │   └── LC_MESSAGES
-│   │       └── k3b.mo
-│   ├── lt
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── lv
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── mai
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       └── libk3b.mo
-│   ├── mr
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ms
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── nb
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── nds
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── nl
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── nn
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── oc
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── pa
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── pl
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── pt
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── pt_BR
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ro
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ru
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── se
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sk
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sl
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sr
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sr@ijekavian
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sr@ijekavianlatin
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sr@latin
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── sv
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── th
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── tr
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── ug
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── uk
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── kio_videodvd.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   ├── zh_CN
-│   │   └── LC_MESSAGES
-│   │       ├── k3b.mo
-│   │       ├── k3bsetup.mo
-│   │       ├── libk3bdevice.mo
-│   │       └── libk3b.mo
-│   └── zh_TW
-│       └── LC_MESSAGES
-│           ├── k3b.mo
-│           ├── k3bsetup.mo
-│           ├── kio_videodvd.mo
-│           ├── libk3bdevice.mo
-│           └── libk3b.mo
-├── Makefile
-├── README.md
-└── TREE
+|-- COPYING.GPL2
+|-- Makefile
+|-- README.md
+|-- TREE
+`-- l10n
+    |-- ast
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- be
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- bg
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- bs
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ca
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ca@valencia
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- cs
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- csb
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       `-- k3bsetup.mo
+    |-- da
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- de
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- el
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- en_GB
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- eo
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- es
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- et
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- eu
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- fi
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- fr
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ga
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- gl
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- he
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- hi
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- hne
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- hr
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- hu
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- is
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- it
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ja
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- kk
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- km
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ko
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ku
+    |   `-- LC_MESSAGES
+    |       `-- k3b.mo
+    |-- lt
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- lv
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- mai
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       `-- libk3b.mo
+    |-- mr
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ms
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- nb
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- nds
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- nl
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- nn
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- oc
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- pa
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- pl
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- pt
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- pt_BR
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ro
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ru
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- se
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sk
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sl
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sr
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sr@ijekavian
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sr@ijekavianlatin
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sr@latin
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- sv
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- th
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- tr
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- ug
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- uk
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- kio_videodvd.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    |-- zh_CN
+    |   `-- LC_MESSAGES
+    |       |-- k3b.mo
+    |       |-- k3bsetup.mo
+    |       |-- libk3b.mo
+    |       `-- libk3bdevice.mo
+    `-- zh_TW
+        `-- LC_MESSAGES
+            |-- k3b.mo
+            |-- k3bsetup.mo
+            |-- kio_videodvd.mo
+            |-- libk3b.mo
+            `-- libk3bdevice.mo
 
 125 directories, 291 files

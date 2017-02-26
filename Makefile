@@ -2,7 +2,7 @@
 
 SOURCEDIR	=	l10n
 PREFIX		= 	/usr
-LOCALEDIR 	= 	$(DESTDIR)/$(PREFIX)/share/locale
+LOCALEDIR 	= 	$(DESTDIR)$(PREFIX)/share/locale
 MKD 		= 	install -d
 COPY 		= 	cp -rf
 DEL 		= 	rm -rf
